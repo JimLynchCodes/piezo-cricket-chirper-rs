@@ -1,6 +1,8 @@
 # piezo-cricket-chirper-rs
 An embedded Rust example of a "cricket chirper" made with the Sunfounder Kepler Kit's piezo buzzer, raspberry pi, AA battery pack, and includes logging using an UART cable (sold seperately).
 
+<video src="./piezo-buzzer-pi-example.MOV"></video>
+
 ---
 
 ## Goal
@@ -44,11 +46,12 @@ cargo install elf2uf2-rs
 
 Then follow the bootsel pi pico process for flashing new firmware:
 
-# Flash to Pico:
-# 1. Hold BOOTSEL button
-# 2. Plug in USB
-# 3. Copy firmware.uf2 to RPI-RP2 drive
-# 4. Pico reboots and runs immediately
+
+### Flash to Pico:
+1. Hold BOOTSEL button
+2. Plug in USB
+3. Copy firmware.uf2 to RPI-RP2 drive
+4. Pico reboots and runs immediately
 
 ---
 
@@ -66,4 +69,6 @@ screen /dev/tty.usbserial-11111 115200
 
 ---
 
-## Example Photo
+## Wiring Photo
+
+<img src="./pi-pico-cricket-buzzer-breadboard.jpeg">
