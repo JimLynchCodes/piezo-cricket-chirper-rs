@@ -75,11 +75,9 @@ fn main() -> ! {
         seed = seed.wrapping_mul(1103515245).wrapping_add(12345);
         let seconds = (seed % 60) + 1;
 
-        let _ = writeln!(uart, "waiting {} seconds", seconds);
+        let _ = writeln!(uart, "Buzzing! Waiting {} seconds", seconds);
 
         delay.delay_ms(seconds * 1000);
-
-        let _ = writeln!(uart, "buzzing");
 
         for _ in 0..500 {
             let _ = buzzer.set_high();
@@ -90,4 +88,5 @@ fn main() -> ! {
 
         delay.delay_ms(500);
     }
+
 }

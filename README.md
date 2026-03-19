@@ -1,9 +1,9 @@
 # piezo-cricket-chirper-rs
 An embedded Rust example of a "cricket chirper" made with the Sunfounder Kepler Kit's piezo buzzer, raspberry pi, AA battery pack, and includes logging using an UART cable (sold seperately).
 
-<video src="https://github.com/JimLynchCodes/piezo-cricket-chirper-rs/blob/main/piezo-buzzer-pi-example.MOV"></video>
+Linkedin Article: https://www.linkedin.com/pulse/intro-embedded-rust-software-engineers-cricket-buzzer-jim-lynch-qji9e
 
-[piezo-buzzer-pi-example.MOV](https://github.com/JimLynchCodes/piezo-cricket-chirper-rs/blob/main/piezo-buzzer-pi-example.MOV)
+<img src="./pi-pico-cricket-buzzer-breadboard.jpeg"/>
 
 ---
 
@@ -74,3 +74,10 @@ screen /dev/tty.usbserial-11111 115200
 ## Wiring Photo
 
 <img src="./pi-pico-cricket-buzzer-breadboard.jpeg">
+
+
+--- 
+
+## Helpful file analyzer tool
+
+If you are having trouble making a valid build it can sometimes be helpful to view your the sections of your output file in this online viewer: https://elfy.io/
